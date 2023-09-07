@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+body{
+    background: rgba(251, 98, 98, 0.246);
+}
+.container{
+    margin: auto;
+    border: 3px solid #ec2222;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(45deg, red, gray, #73ad);
+    margin-top: 50px;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+}
+.container > button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 3px 0;
+    font-size: 15px;
+    border: none;
+    background: #D5FADC;
+    transition: transform .5s ease;
+}
+.container > button:hover{
+    background: #ffffff;
+    transform: scale(.97);
+    cursor: pointer;
+}
+#doorStatus{
+    margin: 20px 0;
+    font-size: large;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #ffffff;
+}
